@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Manrope:wght@300&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #CCBEC3;
+    font-family:  'Poppins';
+    font-size: 1em;
+    
+}
+nav{
+    margin-top: 3em;
+    display: flex;
+align-items: center;
+text-align: center;
+gap: 10em;
+} 
+.list{
+    margin-left: 22em;
+}
+ul{ 
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4em;
+}
+li{
+    
+    list-style: none;  
+
+}
+a{
+    text-decoration: none;
+    color: black;
+} 
+a:focus,a:hover{
+    color: #40457A;
+}
+.hoverunderline {
+    display: inline-block;
+    position: relative;
+    color: black;
+  }
+  
+  .hoverunderline:after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hoverunderline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } 
+
+  /* .contact{
+     display: flex;
+     gap: 3em;
+  }  */
+ .ticket{
+      background-color:  #40457A;
+      color: white;
+      padding: 0.7em;
+      margin-left: 1.5em;
+  } 
+  .ticket:hover{
+      color: white;
+  }
