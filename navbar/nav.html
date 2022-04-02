@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+         <img id="im" src="../images/logo.png" alt="logo" >
+        </div> 
+        <div class="list">
+            <ul>
+                <li><a class="hoverunderline" href="../index.html">Home</a></li>
+                <li><a class="hoverunderline" href="../tourism/tourism.html">Tourism</a></li>
+                <li><a class="hoverunderline" href="">Wonders</a></li>
+                <li><a class="hoverunderline" href="">About</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <a class="hoverunderline" href="">Contact Us</a>
+            <a class="hoverunderline ticket" href="">Ticket Generator</a>
+        </div>
+    </nav> 
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Manrope:wght@300&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #CCBEC3;
+    font-family:  'Poppins';
+    font-size: 1em;
+    
+}
+nav{
+    margin-top: 3em;
+    display: flex;
+align-items: center;
+text-align: center;
+gap: 7em;
+} 
+#im{
+    margin-left: 2em;
+}
+.list{
+    margin-left: 16em;
+}
+ul{ 
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4em;
+}
+li{
+    
+    list-style: none;  
+
+}
+a{
+    text-decoration: none;
+    color: black;
+} 
+a:focus,a:hover,a:active{
+    color: #40457A;
+}
+.hoverunderline {
+    display: inline-block;
+    position: relative;
+    color: black;
+  }
+  
+  .hoverunderline:after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hoverunderline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } 
+
+  /* .contact{
+     display: flex;
+     gap: 3em;
+  }  */
+ .ticket{
+      background-color:  #40457A;
+      color: white;
+      padding: 0.7em;
+      margin-left: 1.5em;
+  } 
+  .ticket:hover{
+      color: white;
+  }
+  
+</style>
+</body>
+</html>

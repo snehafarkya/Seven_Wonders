@@ -1,0 +1,56 @@
+#img{
+    border-radius: 42px;
+    margin: 4em 10em;
+    width: 1212px;
+height: 450px;
+} 
+.box
+{
+    position: absolute;
+width: 648px;
+height: 90px;
+left: 456px;
+top: 551px;
+
+background: rgba(255, 255, 255, 0.65);
+box-shadow: 0px 16px 45px rgba(0, 0, 0, 0.06);
+backdrop-filter: blur(43px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 15px;
+} 
+h2{
+   padding: 0.4em 1.7em;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #363337;
+
+} 
+footer{
+    display: flex;
+align-items: center;
+text-align: center; 
+text-align: center;
+margin-left:38% ;
+}
+
+h3{
+    font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center; 
+text-align: center;
+}
