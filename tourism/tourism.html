@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tourism</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--Aos animation-->
 </head>
 <body>
     <div id="nav-placeholder"></div>
@@ -16,7 +17,7 @@ $.get("../navbar/nav.html", function(data){
 });
 </script>  
 
-<img id="img" src="../images/about.png" alt="">
+<img id="img" src="../images/about.png" alt="" >
 
 <div class="box">
     <h2>Let's Explore The World Together✨</h2>
@@ -26,36 +27,41 @@ $.get("../navbar/nav.html", function(data){
 
 <section class="sec1" id="sec11">
     <div class="rotate-scale-down"  >
-      <img src="https://www.oecd.org/media/oecdorg/directorates/centreforentrepreneurshipsmesandlocaldevelopment/tourism/Slider%20Seoul%20GFTS%202021_2.jpg" id="timg" alt="">
+      <img src="/images/T_1.jpg" class="timg" alt="" data-aos="fade-right">
     </div>
     <div class="para">
-        <p>People have always traveled, whether for exploration and discovery of new lands or just for enjoyment. Tourism covers the latter.The modern concept of tourism can be traced back to the 17th century, when young nobles from western and northern European countries embarked on what was known as the Grand Tour: a trip around Europe (typically covering France, Germany, Italy, and Greece) with the goal of learning about history, art, and cultural heritage. It was thought to be the ideal method of education. By the 18th century, this custom was widespread among wealthier classes and it spread to other parts of the world, such as America. Similarly, religious pilgrimages that were already popular during the Middle Ages continued during this period.
+        <p data-aos="fade-left">People have always traveled, whether for exploration and discovery of new lands or just for enjoyment. Tourism covers the latter.The modern concept of tourism can be traced back to the 17th century, when young nobles from western and northern European countries embarked on what was known as the Grand Tour: a trip around Europe (typically covering France, Germany, Italy, and Greece) with the goal of learning about history, art, and cultural heritage. It was thought to be the ideal method of education. By the 18th century, this custom was widespread among wealthier classes and it spread to other parts of the world, such as America. Similarly, religious pilgrimages that were already popular during the Middle Ages continued during this period.
       </p>
     </div>
 </section>
 <section class="sec2">
-    <div class="para">
-      <p>The Industrial Revolution, which began in the second half of the 18th century, produced a major economic, social and technological transformation that would spread to the rest of the world. As a result of these changes, there was an exodus from rural regions to growing big cities, which needed labour for the new industry.
+    <div class="para" >
+      <p data-aos="fade-right">The Industrial Revolution, which began in the second half of the 18th century, produced a major economic, social and technological transformation that would spread to the rest of the world. As a result of these changes, there was an exodus from rural regions to growing big cities, which needed labour for the new industry.
       Therefore, new social classes appeared. Developments in transport were also key. The improvements in freight and passenger transport contributed to the birth of leisure, new forms of entertainment and travel. People travelled mainly by train, taking advantage of the fact that railway networks connected the destinations in Europe and other parts of the world.
       </p>
     </div>
-    <div class="img">
-        <img src="https://static.businessworld.in/article/article_extra_large_image/1495796491_AT6THj_Tourist-Taj-Mahal.jpg" alt="" id="simg">
+    <div class="img" data-aos="fade-left">
+        <img src="/images/T_2.jpg" alt="" class="timg">
     </div>
 </section>
 <section class="sec3">
   <div class="rotate-scale-down"  >
-      <img src="https://www.karnatakatourism.org/wp-content/uploads/2021/01/india-national-tourism-day.jpg" id="cimg" alt="">
+      <img src="/images/T_3.jpg" data-aos="fade-right" class="timg" alt="">
     </div>
     <div class="para">
-        <p>The 19th century saw the creation of the first travel agencies. One of the pioneers was Thomas Cook & Son, which was the first to offer excursions and holidays for groups, which included transport, accommodation and food tickets, thus making costs cheaper. This would be the origin of what we now know as package holidays.In the first half of the 20th century, the tourism industry continued to grow thanks to the mass production of buses and cars. Coastal tourism began to gain importance and, after World War II, the Mediterranean coast quickly grew in popularity. Also, improvements in air transport (charter flights) as well as progress in labour legislation and a growth in social welfare led to a boom in tourism.
+        <p data-aos="fade-left">The 19th century saw the creation of the first travel agencies. One of the pioneers was Thomas Cook & Son, which was the first to offer excursions and holidays for groups, which included transport, accommodation and food tickets, thus making costs cheaper. This would be the origin of what we now know as package holidays.In the first half of the 20th century, the tourism industry continued to grow thanks to the mass production of buses and cars. Coastal tourism began to gain importance and, after World War II, the Mediterranean coast quickly grew in popularity. Also, improvements in air transport (charter flights) as well as progress in labour legislation and a growth in social welfare led to a boom in tourism.
       </p>
     </div>
 </section>
 
 
 <footer>
-  <h3>Design and Developed by @sneha & @jaspreet</h3>
+  <h3 >Design and Developed by&nbsp; <a href="https://github.com/snehafarkya" target="_blank" >@sneha</a>  &nbsp;& &nbsp;<a href="https://the-designtree.netlify.app/" target="_blank">@jaspreet</a></h3>
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
