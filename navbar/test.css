@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>navbar</title>
-    <link rel="stylesheet" href="./test.css">
-</head>
-<body>
-    <nav>
-        <div class="logo">
-         <img id="im" src="../images/logo.png" alt="logo" >
-        </div> 
-        <div class="list">
-            <ul>
-                <li><a class="hoverunderline" href="../index.html">Home</a></li>
-                <li><a class="hoverunderline" href="../tourism/tourism.html">Tourism</a></li>
-                <li><a class="hoverunderline" href="../wonders/wonder.html">Wonders</a></li>
-                <li><a class="hoverunderline" href="#">About</a></li>
-            </ul>
-        </div>
-        <div class="contact">
-            <a class="hoverunderline" href="">Contact Us</a>
-            <a class="ticket" href="">Ticket Generator</a>
-        </div>
-    </nav> 
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 
 *{
@@ -116,6 +88,3 @@ a:focus,a:hover,a:active{
 .contact .hoverunderline{
     color: #40457A;
 }
-</style>
-</body>
-</html>
