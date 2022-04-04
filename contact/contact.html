@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!-- navbar -->
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("../navbar/nav.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>  
+<center>
+<h2>Wanna Say Something? Just let us Know👇</h2>
+
+<!-- form -->
+
+<form id="contact" method="POST" action="cont.php">
+             
+    <input type="text" id="name"  name="uname" placeholder="Enter Your Name" required><br><br>
+    <input type="email" id="email" name="uemail" placeholder="Enter your email" required><br><br>
+    <textarea id="w3review" id="message" name="msg" rows="7" cols="25"></textarea><br><br>
+
+    <!-- rating -->
+    <label style="color: white;"> Rate our website</label><br>
+
+       <span class="star-rating">
+           <input type="radio" name="rating1" value="1"><i></i>
+           <input type="radio" name="rating1" value="2"><i></i>
+           <input type="radio" name="rating1" value="3"><i></i>
+           <input type="radio" name="rating1" value="4"><i></i>
+            <input type="radio" name="rating1" value="5"><i></i>
+       </span><br><br>
+    <input type="submit" name="submit" value="Submit Response">
+</form>
+
+</center>
+</body>
+</html>
