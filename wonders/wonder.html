@@ -29,22 +29,22 @@ $.get("../navbar/nav.html", function(data){
   <h2 class="h2">WONDERS WALL FRAME</h2>
 </div>
     <div class="container">
-      <img id="img" src="https://static.dw.com/image/55000481_403.jpg" alt="">
-      <img id="img" src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2015/10/12/new-seven-wonders-christ-the-redeemer.jpg.rend.hgtvcom.1280.960.suffix/1491581548898.jpeg" alt="">
-      <img id="img" src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2015/10/12/new-seven-wonders-petra.jpg.rend.hgtvcom.616.462.suffix/1491581549062.jpeg" alt="">
-      <img id="img" src="https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg" alt="">
-      <img id="img" src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2014/12/6/7-world-wonders-machu-picchu.jpg.rend.hgtvcom.966.725.suffix/1491584559178.jpeg" alt="">
-      <img id="img" src="https://www.edudwar.com/wp-content/uploads/2021/12/Wonders-of-the-World.jpg" alt="">
-      <img id="img" src="https://cdn.britannica.com/49/61349-050-9FFBEB28/El-Castillo-pyramid-plaza-Toltec-state-Yucatan.jpg?q=60" alt="">
+     <a href="#Wonder-1"> <img id="img" src="https://static.dw.com/image/55000481_403.jpg" alt="" ></a>
+     <a href="#Wonder-2"> <img id="img" src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2015/10/12/new-seven-wonders-christ-the-redeemer.jpg.rend.hgtvcom.1280.960.suffix/1491581548898.jpeg" alt=""></a>
+     <a href="#Wonder-3"> <img id="img" src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2015/10/12/new-seven-wonders-petra.jpg.rend.hgtvcom.616.462.suffix/1491581549062.jpeg" alt=""></a>
+     <a href="#Wonder-4"> <img id="img" src="https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg" alt=""></a>
+     <a href="#Wonder-5"> <img id="img" src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2014/12/6/7-world-wonders-machu-picchu.jpg.rend.hgtvcom.966.725.suffix/1491584559178.jpeg" alt=""></a>
+     <a href="#Wonder-6"> <img id="img" src="https://www.edudwar.com/wp-content/uploads/2021/12/Wonders-of-the-World.jpg" alt="">
+      <a href="#Wonder-7"><img id="img" src="https://cdn.britannica.com/49/61349-050-9FFBEB28/El-Castillo-pyramid-plaza-Toltec-state-Yucatan.jpg?q=60" alt=""></a>
     
     </div>
 
     
     
 <center>
-    <a id="arrow" href="#sec1"><img src="../downarrow.webp" alt="" height="80px"></a>
+    <a class="arrow" href="#Wonder-1"><img src="../images/arrow-down.png" alt="arrow" "></a>
 </center>
-    <section class="sec1" id="sec1">
+    <section class="sec1" id="Wonder-1">
         <h2 class="head">
             TAJ MAHAL
         </h2>
@@ -81,7 +81,7 @@ $.get("../navbar/nav.html", function(data){
 
 
     <!-- CHRIST THE REEDEMER -->
-    <section class="sec1" id="sec1">
+    <section class="sec1" id="Wonder-2">
         <h2 class="head">
             CHRIST THE REDEEMER
         </h2>
@@ -91,32 +91,17 @@ $.get("../navbar/nav.html", function(data){
 
         </p>
         <div class="car">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" >
-                  <div class="carousel-item active" >
-                    <img class="d-block w-10" src="https://cdn.britannica.com/54/150754-050-5B93A950/statue-Christ-the-Redeemer-Rio-de-Janeiro.jpg" alt="First slide" width="500" height="400">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-10" src="https://cdn.britannica.com/85/61085-050-AB581961/Mount-Corcovado-statue-top-Christ-the-Redeemer.jpg" height="400" width="500" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-10" src="https://www.thoughtco.com/thmb/8BttMworG-ylWksgCO87j41hQRM=/3342x3342/smart/filters:no_upscale()/christredeemer-10139156-567c92283df78ccc15684502.jpg" alt="Third slide" height="400" width="500">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../images/C2-1.webp" alt=""></div>
+            <div class="swiper-slide"><img src="../images/C2-2.webp" alt=""></div>
+            <div class="swiper-slide"><img src="../images/C2-3.jpg" alt=""></div>
+            
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
        
         <div class="asidepara">
             <h3>Tourism</h3>
@@ -132,7 +117,7 @@ $.get("../navbar/nav.html", function(data){
 
     <!-- petra -->
 
-    <section class="sec1" id="sec1">
+    <section class="sec1" id="Wonder-3">
         <h2 class="head">
             PETRA
         </h2>
@@ -141,32 +126,17 @@ $.get("../navbar/nav.html", function(data){
 
         </p>
         <div class="car">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" >
-                  <div class="carousel-item active" >
-                    <img class="d-block w-10" src="https://media.istockphoto.com/photos/al-khazneh-in-petra-picture-id1170941515?k=20&m=1170941515&s=612x612&w=0&h=YDRnp2RmofIA5JIiD3xPgz43HpAiRysH7ZQNuRdqpWo=" alt="First slide" width="500" height="400">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-10" src="https://images.indianexpress.com/2020/10/petra-jordan-1200.jpg" height="400" width="500" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-10" src="https://www.stirworld.com/images/article_gallery/petra-is-a-famous-archaeological-site-in-jordan-s-southwestern-desert-petra-jordan-sandeep-and-tania-khosla-stirworld-191019121400.jpg" alt="Third slide" height="400" width="500">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../images/C3-1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/C3-2.webp" alt=""></div>
+            <div class="swiper-slide"><img src="../images/C3-3.jpg" alt=""></div>
+            
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
        
         <div class="asidepara">
             <h3>Tourism</h3>
@@ -180,7 +150,7 @@ $.get("../navbar/nav.html", function(data){
 
     <!-- colosseum -->
 
-    <section class="sec1" id="sec1">
+    <section class="sec1" id="Wonder-4">
         <h2 class="head">
           GREAT WALL OF CHINA
         </h2>
@@ -189,32 +159,17 @@ $.get("../navbar/nav.html", function(data){
 
         </p>
         <div class="car">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" >
-                  <div class="carousel-item active" >
-                    <img class="d-block w-10" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2017%2F04%2Fgreat-wall-china-tourists-GWOC0417.jpg" alt="First slide" width="500" height="400">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1200px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg" height="400" width="500" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-10" src="https://mymodernmet.com/wp/wp-content/uploads/2019/10/great-wall-of-china-facts-thumbnail.jpg" alt="Third slide" height="400" width="500">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../images/C4-1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/C4-2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="../images/C4-3.jpg" alt=""></div>
+            
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
        
         <div class="asidepara">
             <h3>Tourism</h3>
@@ -229,7 +184,7 @@ $.get("../navbar/nav.html", function(data){
 
     <!-- mchu pichu -->
 
-    <section class="sec1" id="sec1">
+    <section class="sec1" id="Wonder-5">
       <h2 class="head">
          MACHU PICCHU
       </h2>
@@ -238,32 +193,17 @@ $.get("../navbar/nav.html", function(data){
 
       </p>
       <div class="car">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner" >
-                <div class="carousel-item active" >
-                  <img class="d-block w-10" src="https://www.peruforless.com/blog/wp-content/uploads/2020/05/machu-picchu-ruins.jpg" alt="First slide" width="500" height="400">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-10" src="https://topworldtraveling.com/img/images_1/how-to-reach-machu-picchu-without-the-inca-trail.jpg"  height="400" width="500" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-10" src="https://static.dw.com/image/38295259_401.jpg" alt="Third slide" height="400" width="500">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="../images/C5-1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="../images/C5-2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="../images/C5-3.jpg" alt=""></div>
+          
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+      </div>  
      
       <div class="asidepara">
           <h3>Tourism</h3>
@@ -277,7 +217,7 @@ $.get("../navbar/nav.html", function(data){
   </section>
 
 <!-- colosseum -->
-  <section class="sec1" id="sec1">
+  <section class="sec1" id="Wonder-6">
     <h2 class="head">
        COLOSSEUM
     </h2>
@@ -287,32 +227,17 @@ $.get("../navbar/nav.html", function(data){
 
     </p>
     <div class="car">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" >
-              <div class="carousel-item active" >
-                <img class="d-block w-10" src="https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg?w=690&h=388&c=crop" alt="First slide" width="500" height="400">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-10" src="https://cdn.britannica.com/34/179234-050-8E54EB21/Interior-Colosseum-Rome.jpg?w=690&h=388&c=crop"  height="400" width="500" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-10" src="https://cdn.britannica.com/88/23688-050-EEFE4DD3/Colosseum-Rome-ce-82-ce.jpg?w=690&h=388&c=crop" alt="Third slide" height="400" width="500">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../images/C6-1.webp" alt=""></div>
+        <div class="swiper-slide"><img src="../images/C6-2.webp" alt=""></div>
+        <div class="swiper-slide"><img src="../images/C6-3.webp" alt=""></div>
+        
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
    
     <div class="asidepara">
         <h3>Tourism</h3>
@@ -326,7 +251,7 @@ $.get("../navbar/nav.html", function(data){
 </section>
 
 
-<section class="sec1" id="sec1">
+<section class="sec1" id="Wonder-7">
   <h2 class="head">
     CHICHEN ITZA
   </h2>
@@ -335,32 +260,17 @@ $.get("../navbar/nav.html", function(data){
 
   </p>
   <div class="car">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" >
-            <div class="carousel-item active" >
-              <img class="d-block w-10" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/d2/04/66/photo5jpg.jpg?w=500&h=-1&s=1" alt="First slide" width="500" height="400">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-10" src="https://www.planetware.com/photos-large/MEX/mexico-chichen-itza-history.jpg"  height="400" width="500" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-10" src="https://yucatanmagazine.com/wp-content/uploads/2019/07/chichenitzatourists800x500.jpg" alt="Third slide" height="400" width="500">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="../images/C7-1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="../images/C7-2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="../images/C7-3.jpg" alt=""></div>
+      
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+  </div>
  
   <div class="asidepara">
       <h3>Tourism</h3>
