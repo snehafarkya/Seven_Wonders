@@ -82,10 +82,3 @@ else{
 mysqli_close($conn);
 ?>
 
-<?php
-echo "<br><br>";
- echo '   <form action="" method="POST">
-         <input type="text" name="namee" value="<?php if(isset($_POST["namee"])){ echo $usname}  ?>" id="">
- 
- </form>'
-?>
