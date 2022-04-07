@@ -10,7 +10,7 @@
     
 
 <?php 
-include 'contact.php';
+ include 'contact.html';
      echo "<script> alert('Thankyou! Your response is submitted successfully ' ) </script>";
 
      

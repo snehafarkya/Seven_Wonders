@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("/navbar/nav.html", function (data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+        <img id="img" src="../images/TicketI-1.png" alt="img">
+
+<div class="form">
+        <form action="Ticket.php" method="post">
+            <label for="text" class="from">FROM</label>
+            <input type="text" name="source" id="" placeholder="Input Source">
+            <label for="dest" class="to">TO</label>
+            <select name="destination" id="">
+                <option value="Select Destination">Select Destination</option>
+                <option value="Taj Mahal">Taj Mahal</option>
+                <option value="Christ The Reedemer">Christ The Reedemer</option>
+                <option value="Petra">Petra</option>
+                <option value="Great Wall Of China">Great Wall Of China</option>
+                <option value="Machu Picchu">Machu Picchu</option>
+                <option value="Colosseum">Colosseum</option>
+                <option value="Chichen Itza">Chichen Itza</option>
+
+
+            </select> 
+            <label for="datee" class="dat">DATE</label>
+            <input type="date" name="date" id=""> 
+            <input type="submit" value="sub" name="submit">
+        </form>
+</div> 
+
+</body>
+</html>
