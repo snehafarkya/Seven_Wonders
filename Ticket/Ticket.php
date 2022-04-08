@@ -1,5 +1,5 @@
 <?php
-
+ error_reporting(E_ALL ^ E_WARNING);
 include "TTicket.html";
    $hostname = "localhost";
    $userid = "root";
@@ -30,12 +30,49 @@ include "TTicket.html";
 <?php
 if(isset($_POST['submit'])){
     if($dest == 'A'){
-      echo "<div class='imagee'><img src='Ticket-1.png'></div>";
+      echo "<div class='imagee'><img src='./tickets/Taj Mahal.png'></div>";
 
     echo "<h2> $source </h2>";
+    echo "<h3> $date </h3>";
     }
 
-else{
+else if($dest == 'B'){
+    echo "<div class='imagee'><img src='./tickets/CHRIST THE REDEEMER.png'></div>";
+
+  echo "<h2> $source </h2>";
+  echo "<h3> $date </h3>";
+  }
+  else if($dest == 'C'){
+    echo "<div class='imagee'><img src='./tickets/PETRA.png'></div>";
+
+  echo "<h2> $source </h2>";
+  echo "<h3> $date </h3>";
+  }
+  else if($dest == 'D'){
+    echo "<div class='imagee'><img src='./tickets/GREAT WALL OF CHINA.png'></div>";
+
+  echo "<h2> $source </h2>";
+  echo "<h3> $date </h3>";
+  }
+  else if($dest == 'E'){
+    echo "<div class='imagee'><img src='./tickets/MACHU PICCHU.png'></div>";
+
+  echo "<h2> $source </h2>";
+  echo "<h3> $date </h3>";
+  }
+  else if($dest == 'F'){
+    echo "<div class='imagee'><img src='./tickets/COLOSSEUM.png'></div>";
+
+  echo "<h2> $source </h2>";
+  echo "<h3> $date </h3>";
+  }
+  else if($dest == 'G'){
+    echo "<div class='imagee'><img src='./tickets/CHICHEN ITZA.png'></div>";
+
+  echo "<h2> $source </h2>";
+  echo "<h3> $date </h3>";
+  }
+  else{
     echo "<h2>Insert a valid destination</h2>";
 }
 }
@@ -56,7 +93,15 @@ h2{
     top:1141px;
     left:28%;
     font-size:30px;
-    color: ##363337;
+    color: #3E3E3E;
+    font-family: 'Bebas Neue', cursive;
+} 
+h3{
+    position: absolute;
+    top:1141px;
+    left:41.5%;
+    font-size:30px;
+    color: #3E3E3E;
     font-family: 'Bebas Neue', cursive;
 }
     </style>
