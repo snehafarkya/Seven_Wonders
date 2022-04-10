@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      .hidden{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="summonPokemon">Change pokemon!</div>
+    <img src="https://c.tenor.com/VDwwxlVfg-4AAAAC/andrew-goldstein-frnd.gif" height="500" width="500" class="hidden" id="pokemon">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      $.fn.center = function () {
+        this.css("position","absolute");
+        this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + $(window).scrollTop()) + "px");
+        this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+        return this;
+      }
+
+      $("#summonPokemon").on("click", function(){
+        $("#pokemon").fadeIn().center();
+        setTimeout(function(){
+          $("#pokemon").fadeOut()
+        }, 4000);
+      });
+    </script>
+  </body>
+</html>

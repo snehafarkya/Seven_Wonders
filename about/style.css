@@ -40,7 +40,7 @@ h2{
  p{
      margin: 3em;
      text-align: center;
-     font-weight: 500;
+     font-weight: 600;
      font-size: 18px;
      line-height: 27px;
  } 
@@ -125,7 +125,14 @@ border-radius: 12px;
  .portfolio,.github,.Linkedin,.instagram{
     height: 45px;
     width: 45px;
-    background: #C4C4C4;
+    /* background: #C4C4C4; */
+    background-color: transparent;
  }
 
- 
+ .fa-brands, .fa-solid {
+     height: 100%;
+     width: 100%;
+     font-size: 2.8em;
+     color: white;
+     box-sizing: border-box;
+ }
