@@ -4,7 +4,7 @@ include "TTicket.html";
    $hostname = "localhost";
    $userid = "root";
    $pass = "sneha";
-   $dbname = "ticket";
+   $dbname = "phpwebsite";
    $conn = new mysqli($hostname,$userid,$pass,$dbname);
    
    if(!$conn){
@@ -17,7 +17,7 @@ include "TTicket.html";
    $dest = $_POST['destination'];
    $date = $_POST['date']; 
   
-    $sql = "insert into getticket values('$source','$dest','$date');";
+    $sql = "insert into ticketinfo values('$source','$dest','$date');";
     $result = mysqli_query($conn,$sql);
    
 //    $sel = "Select * from entry";
@@ -105,3 +105,16 @@ h3{
     font-family: 'Bebas Neue', cursive;
 }
     </style>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ticket_php</title>
+      <link rel="icon" href="../navbar/logo.ico" type="image/x-icon">
+    </head>
+    <body>
+      
+    </body>
+    </html>
